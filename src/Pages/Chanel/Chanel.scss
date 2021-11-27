@@ -1,0 +1,231 @@
+* {
+    transition: all 0.5s;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.All-Box5 {
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.about {
+    margin-left: 50px;
+    &-img {
+        width: 1150px;
+    }
+
+    &-box {
+        margin-top: 30px;
+        display: flex;
+
+        &-img {
+            height: 80px;
+            width: 80px;
+        }
+
+        &-title {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 33px;
+            color: #FFFFFF;
+            margin-top: 4px;
+            margin-left: 14px;
+
+            span {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 13px;
+                line-height: 16px;
+                color: #C2C2C2;
+                margin-top: -10px;
+            }
+        }
+
+        &-dingdong {
+            height: 26px;
+            width: 22px;
+            position: absolute;
+            margin-left: 930px;
+            margin-top: 10px;
+            z-index: 3;
+        }
+
+        &-btn {
+            background: #FF0000;
+            border-radius: 20px;
+            height: 40px;
+            width: 154px;
+            border: 2px solid #FF0000;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: center;
+            color: #FFFFFF;
+            cursor: pointer;
+            transition: all 0.2s;
+            margin-left: 695px;
+
+            &:hover {
+                opacity: 0.6;
+            }
+
+            &:active {
+                background-color: white;
+                border: 2px solid #FF0000;
+                color: #FF0000;
+            }
+        }
+    }
+
+    &-links {
+        margin-left: -40px;
+        margin-top: 10px;
+
+        &-link {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 23px;
+            color: #FFFFFF;
+            margin-left: 40px;
+
+            &:hover {
+                color: #FF0000;
+                border-bottom: 2px solid #FF0000;
+            }
+        }
+
+        &-search {
+            margin-left: 40px;
+            cursor: pointer;
+        }
+    }
+
+    .playusers {
+        position: absolute;
+        margin-left: 950px;
+        margin-top: -310px;
+    }
+
+    .channusers {
+        position: absolute;
+        margin-left: 950px;
+        margin-top: -270px;
+    }
+
+    .aboutusers {
+        position: absolute;
+        margin-left: 950px;
+        margin-top: -270px;
+    }
+
+    .users {
+        position: absolute;
+        margin-left: 950px;
+        margin-top: -340px;
+
+        &-title {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #C2C2C2;
+        }
+
+        &-box {
+            display: flex;
+            margin-top: 30px;
+
+            &-title {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 23px;
+                color: #FFFFFF;
+                margin-left: 20px;
+                margin-top: 13px;
+
+                &:hover {
+                    color: #FF0000;
+                }
+            }
+
+            &-img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+
+    #video {
+        display: flex;
+        margin-top: 50px;
+
+        &-img {
+            border-radius: 14px;
+        }
+
+        &-title {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 34px;
+            color: #FFFFFF;
+            margin-left: 30px;
+
+
+            &-about {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 22px;
+                color: #FFFFFF;
+                mix-blend-mode: normal;
+                opacity: 0.6;
+            }
+
+            &-date {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 22px;
+                color: #FFFFFF;
+                mix-blend-mode: normal;
+                opacity: 0.4;
+            }
+        }
+    }
+
+    #lost-video {
+        &-title {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 26px;
+            line-height: 33px;
+            color: #FFFFFF;
+        }
+        &-box {
+            display: flex;
+            margin-left: -40px;
+        }
+
+        .video-link {
+            margin-left: 40px;
+        }
+    }
+}
+
+.video-img2 {
+    margin-left: 10px;
+}
+
+.playlist {
+    color: #FF0000;
+    padding-bottom: 50px;
+    font-size: 20px;
+}

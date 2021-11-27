@@ -1,0 +1,185 @@
+* {
+    transition: all 0.5s;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+.nav {
+    background-color: #17171E;
+    margin-left: -10px;
+    padding-left: 32px;
+    width: 220px;
+    height: 100%;
+
+    &-box-one {
+        .nav-mini-box {
+            display: flex;
+
+            &-link {
+                margin-left: 13px;
+                cursor: pointer;
+                color: rgb(160, 142, 142);
+
+                &:hover {
+                    color: rgba(255, 0, 0, 1);
+                }
+
+                &:active {
+                    color: rgb(114, 0, 0);
+                }
+            }
+        }
+    }
+
+    &-box-two {
+        .nav-mini-box {
+            display: flex;
+        }
+    }
+}
+
+.nav-trend {
+    height: 20px;
+    width: 16px;
+}
+
+.nav-subs {
+    height: 18px;
+    width: 17px;
+}
+
+.trends-text {
+    margin-top: -1px;
+    padding-left: 5px;
+}
+
+.subs-text {
+    margin-top: -3px;
+    padding-left: 5px;
+}
+
+.nav-lib {
+    height: 16px;
+    width: 20px;
+}
+
+.nav-his {
+    height: 18px;
+    width: 20px;
+}
+
+.nav-wat {
+    height: 19px;
+    width: 17px;
+}
+
+.nav-sta {
+    height: 17px;
+    width: 18px;
+}
+
+.nav-lik {
+    height: 16px;
+    width: 18px;
+}
+
+.nav-mus {
+    height: 20px;
+    width: 18px;
+}
+
+.nav-games {
+    height: 15px;
+    width: 21px
+}
+
+.nav-more {
+    height: 8px;
+    width: 14px;
+}
+
+.nav-two-link {
+    margin-left: 13px;
+    cursor: pointer;
+    color: rgb(160, 142, 142);
+
+    &:hover {
+        color: rgba(255, 0, 0, 1);
+    }
+
+    &:active {
+        color: rgb(114, 0, 0);
+    }
+}
+
+.fyr {
+    margin-top: -5px;
+}
+
+.fyp {
+    margin-top: -9px;
+}
+
+.nav-box-one {
+    padding-top: 10px;
+}
+
+.nav-box-two {
+    margin-top: 40px;
+}
+
+.subs-title {
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+#p-img {
+    border-radius: 100%;
+    height: 26px;
+    width: 26px;
+}
+
+.post-link {
+    display: flex;
+}
+
+.user-title {
+    margin-left: 10px;
+    margin-top: 1px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgb(160, 142, 142);
+}
+
+.user-title:hover {
+    color: rgba(255, 0, 0, 1);
+}
+
+.settings {
+    display: flex;
+    margin-left: 1px;
+    margin-top: 104px;
+    margin-bottom: 40px;
+}
+
+.sett-img {
+    height: 20px;
+    width: 18px;
+}
+
+.sett-title {
+    margin-top: -2px;
+    margin-left: 10px;
+    color: rgb(160, 142, 142);
+}
+
+.Home-box-fyr {
+    margin-bottom: 12px;
+}
